@@ -4,7 +4,6 @@
 
 EXTERN_C NTSTATUS NTAPI RtlAdjustPrivilege(ULONG, BOOLEAN, BOOLEAN, PBOOLEAN);
 EXTERN_C NTSTATUS NTAPI NtRaiseHardError(NTSTATUS ErrorStatus, ULONG NumberOfParameters, ULONG UnocodeStringParameterMask, PULONG_PTR Parameters, ULONG ValidResponseOption, PULONG Response);
-std::cout<<hi<<
 int main() {
     BOOLEAN bl;
     unsigned long response;
